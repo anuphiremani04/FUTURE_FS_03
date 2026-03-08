@@ -1,6 +1,6 @@
-## FUTURE_FS_03
+# FUTURE_FS_03
 
-# 🍰 **FreshBite Cafe Website**
+## 🍰 **FreshBite Cafe Website**
 
 A modern and responsive **Cafe & Restaurant Website** built using **HTML5**, **CSS3**, and **Vanilla JavaScript**.
 
