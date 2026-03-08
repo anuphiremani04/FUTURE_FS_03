@@ -1,0 +1,269 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="FreshBite Cafe Gallery-Coffee, food, interior, and happy customer moments">
+    <title>Gallery-FreshBite Cafe</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/pages.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="inner-page">
+    <!-- Navigation-->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <i class="fas fa-leaf"></i>
+                <span>FreshBite Cafe</span>
+            </div>
+            <button class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="gallery.html" class="active">Gallery</a></li>
+                <li><a href="reservation.html">Reservation</a></li>
+                <li><a href="order.html">Order Online</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header-->
+    <section class="page-header">
+        <div class="page-header-content">
+            <h1>Gallery</h1>
+            <p>Visual moments from FreshBite Cafe</p>
+        </div>
+    </section>
+
+    <!-- Gallery Section-->
+    <section class="gallery-section section-padding">
+        <div class="container">
+            <div class="gallery-grid">
+                <!-- Coffee Images-->
+                <div class="gallery-item" data-category="coffee" data-aos="fade-up">
+                    <div class="gallery-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=600&h=600&fit=crop" alt="Latte Art">
+                        <div class="gallery-overlay">
+                            <a href="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=1200&h=1200&fit=crop" class="lightbox-trigger" data-lightbox="gallery">
+                                <i class="fas fa-expand"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="gallery-caption">Signature Latte Art</p>
+                </div>
+
+                <div class="gallery-item" data-category="coffee" data-aos="fade-up">
+                    <div class="gallery-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?w=600&h=600&fit=crop" alt="Espresso Pour">
+                        <div class="gallery-overlay">
+                            <a href="https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?w=1200&h=1200&fit=crop" class="lightbox-trigger" data-lightbox="gallery">
+                                <i class="fas fa-expand"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="gallery-caption">Fresh Espresso Pour</p>
+                </div>
+
+                <!-- Food Images-->
+                <div class="gallery-item" data-category="food" data-aos="fade-up">
+                    <div class="gallery-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?w=600&h=600&fit=crop" alt="Breakfast Plate">
+                        <div class="gallery-overlay">
+                            <a href="https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?w=1200&h=1200&fit=crop" class="lightbox-trigger" data-lightbox="gallery">
+                                <i class="fas fa-expand"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="gallery-caption">Delicious Breakfast Plate</p>
+                </div>
+
+                <div class="gallery-item" data-category="food" data-aos="fade-up">
+                    <div class="gallery-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=600&h=600&fit=crop" alt="Pastries">
+                        <div class="gallery-overlay">
+                            <a href="https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=1200&h=1200&fit=crop" class="lightbox-trigger" data-lightbox="gallery">
+                                <i class="fas fa-expand"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="gallery-caption">Fresh Baked Pastries</p>
+                </div>
+
+                <!-- Interior Images-->
+                <div class="gallery-item" data-category="interior" data-aos="fade-up">
+                    <div class="gallery-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=600&h=600&fit=crop" alt="Cafe Interior">
+                        <div class="gallery-overlay">
+                            <a href="https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=1200&h=1200&fit=crop" class="lightbox-trigger" data-lightbox="gallery">
+                                <i class="fas fa-expand"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="gallery-caption">Cozy Seating Area</p>
+                </div>
+
+                <div class="gallery-item" data-category="interior" data-aos="fade-up">
+                    <div class="gallery-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=600&h=600&fit=crop" alt="Cafe Ambiance">
+                        <div class="gallery-overlay">
+                            <a href="https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=1200&h=1200&fit=crop" class="lightbox-trigger" data-lightbox="gallery">
+                                <i class="fas fa-expand"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="gallery-caption">Warm Ambiance</p>
+                </div>
+
+                <!-- Customers Images-->
+                <div class="gallery-item" data-category="customers" data-aos="fade-up">
+                    <div class="gallery-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?w=600&h=600&fit=crop" alt="Happy Customers">
+                        <div class="gallery-overlay">
+                            <a href="https://images.unsplash.com/photo-1511920170033-f8396924c348?w=1200&h=1200&fit=crop" class="lightbox-trigger" data-lightbox="gallery">
+                                <i class="fas fa-expand"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="gallery-caption">Happy Moments</p>
+                </div>
+
+                <div class="gallery-item" data-category="customers" data-aos="fade-up">
+                    <div class="gallery-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=600&h=600&fit=crop" alt="Group Enjoying">
+                        <div class="gallery-overlay">
+                            <a href="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1200&h=1200&fit=crop" class="lightbox-trigger" data-lightbox="gallery">
+                                <i class="fas fa-expand"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="gallery-caption">Friends Gathering</p>
+                </div>
+
+                <!-- Barista Images-->
+                <div class="gallery-item" data-category="barista" data-aos="fade-up">
+                    <div class="gallery-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1495774856032-8b90bbb32b32?w=600&h=600&fit=crop" alt="Barista at Work">
+                        <div class="gallery-overlay">
+                            <a href="https://images.unsplash.com/photo-1495774856032-8b90bbb32b32?w=1200&h=1200&fit=crop" class="lightbox-trigger" data-lightbox="gallery">
+                                <i class="fas fa-expand"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="gallery-caption">Expert Barista at Work</p>
+                </div>
+
+                <div class="gallery-item" data-category="barista" data-aos="fade-up">
+                    <div class="gallery-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?w=600&h=600&fit=crop" alt="Coffee Preparation">
+                        <div class="gallery-overlay">
+                            <a href="https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?w=1200&h=1200&fit=crop" class="lightbox-trigger" data-lightbox="gallery">
+                                <i class="fas fa-expand"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="gallery-caption">Coffee Preparation</p>
+                </div>
+
+                <!-- Additional Images-->
+                <div class="gallery-item" data-category="coffee" data-aos="fade-up">
+                    <div class="gallery-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?w=600&h=600&fit=crop" alt="Coffee Beans">
+                        <div class="gallery-overlay">
+                            <a href="https://images.unsplash.com/photo-1447933601403-0c6688de566e?w=1200&h=1200&fit=crop" class="lightbox-trigger" data-lightbox="gallery">
+                                <i class="fas fa-expand"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="gallery-caption">Premium Coffee Beans</p>
+                </div>
+
+                <div class="gallery-item" data-category="food" data-aos="fade-up">
+                    <div class="gallery-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600&h=600&fit=crop" alt="Dessert">
+                        <div class="gallery-overlay">
+                            <a href="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=1200&h=1200&fit=crop" class="lightbox-trigger" data-lightbox="gallery">
+                                <i class="fas fa-expand"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="gallery-caption">Delicious Desserts</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox Modal-->
+    <div class="lightbox-modal" id="lightboxModal">
+        <div class="lightbox-content">
+            <button class="lightbox-close" id="lightboxClose">
+                <i class="fas fa-times"></i>
+            </button>
+            <button class="lightbox-prev" id="lightboxPrev">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <img id="lightboxImage" src="" alt="Gallery Image">
+            <button class="lightbox-next" id="lightboxNext">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- Footer-->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>FreshBite Cafe</h4>
+                    <p>Crafting exceptional coffee and memorable experiences since 2020.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Hours</h4>
+                    <p>Mon - Fri: 7:00 AM - 8:00 PM<br>Sat: 8:00 AM - 9:00 PM<br>Sun: 8:00 AM - 7:00 PM</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Address: 123 Coffee Street, City, State<br>Phone: (555) 123-4567<br>Email: hello@freshbite.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 FreshBite Cafe. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms & Conditions</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+

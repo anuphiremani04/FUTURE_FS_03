@@ -1,0 +1,441 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore FreshBite Cafe's premium menu-Coffee, beverages, snacks, breakfast, and desserts">
+    <title>Menu-FreshBite Cafe</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/pages.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="inner-page">
+    <!-- Navigation-->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <i class="fas fa-leaf"></i>
+                <span>FreshBite Cafe</span>
+            </div>
+            <button class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="menu.html" class="active">Menu</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="reservation.html">Reservation</a></li>
+                <li><a href="order.html">Order Online</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header-->
+    <section class="page-header">
+        <div class="page-header-content">
+            <h1>Our Menu</h1>
+            <p>Crafted with passion, served with love</p>
+        </div>
+    </section>
+
+    <!-- Menu Filter-->
+    <section class="menu-section section-padding">
+        <div class="container">
+            <div class="filter-buttons" data-aos="fade-up">
+                <button class="filter-btn active" data-filter="all">All Items</button>
+                <button class="filter-btn" data-filter="coffee">Coffee</button>
+                <button class="filter-btn" data-filter="beverages">Beverages</button>
+                <button class="filter-btn" data-filter="snacks">Snacks</button>
+                <button class="filter-btn" data-filter="breakfast">Breakfast</button>
+                <button class="filter-btn" data-filter="desserts">Desserts</button>
+            </div>
+
+            <!-- Menu Items Grid-->
+            <div class="menu-grid" id="menuGrid">
+                <!-- Coffee Items-->
+                <div class="menu-item" data-category="coffee" data-aos="fade-up">
+                    <div class="menu-item-image">
+                        <img src="https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?w=400&h=300&fit=crop" alt="Espresso">
+                        <div class="menu-overlay">
+                            <button class="order-btn">Order Now</button>
+                        </div>
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>Espresso</h3>
+                        <p>Bold and intense pure espresso shots</p>
+                        <span class="menu-price">₹290</span>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="coffee" data-aos="fade-up">
+                    <div class="menu-item-image">
+                        <img src="https://images.unsplash.com/photo-1534778101976-62847782c213?w=400&h=300&fit=crop" alt="Cappuccino">
+                        <div class="menu-overlay">
+                            <button class="order-btn">Order Now</button>
+                        </div>
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>Cappuccino</h3>
+                        <p>Rich espresso with velvety steamed milk and foam</p>
+                        <span class="menu-price">₹374</span>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="coffee" data-aos="fade-up">
+                    <div class="menu-item-image">
+                        <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=400&h=300&fit=crop" alt="Latte">
+                        <div class="menu-overlay">
+                            <button class="order-btn">Order Now</button>
+                        </div>
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>Vanilla Latte</h3>
+                        <p>Smooth espresso with flavored milk and vanilla bean</p>
+                        <span class="menu-price">₹456</span>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="coffee" data-aos="fade-up">
+                    <div class="menu-item-image">
+                        <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=400&h=300&fit=crop" alt="Americano">
+                        <div class="menu-overlay">
+                            <button class="order-btn">Order Now</button>
+                        </div>
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>Americano</h3>
+                        <p>Rich espresso shots topped with hot water</p>
+                        <span class="menu-price">₹332</span>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="coffee" data-aos="fade-up">
+                    <div class="menu-item-image">
+                        <img src="https://images.unsplash.com/photo-1557006021-b85faa2bc5e2?w=400&h=300&fit=crop" alt="Macchiato">
+                        <div class="menu-overlay">
+                            <button class="order-btn">Order Now</button>
+                        </div>
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>Macchiato</h3>
+                        <p>Espresso "marked" with a dash of steamed milk</p>
+                        <span class="menu-price">₹374</span>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="coffee" data-aos="fade-up">
+                    <div class="menu-item-image">
+                        <img src="https://images.unsplash.com/photo-1599639957043-f3aa5c986398?w=400&h=300&fit=crop" alt="Mocha">
+                        <div class="menu-overlay">
+                            <button class="order-btn">Order Now</button>
+                        </div>
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>Mocha</h3>
+                        <p>Espresso with steamed milk and chocolate blend</p>
+                        <span class="menu-price">₹456</span>
+                    </div>
+                </div>
+
+                <!-- Beverages-->
+                <div class="menu-item" data-category="beverages" data-aos="fade-up">
+                    <div class="menu-item-image">
+                        <img src="https://images.unsplash.com/photo-1517487881594-2787fef5ebf7?w=400&h=300&fit=crop" alt="Iced Coffee">
+                        <div class="menu-overlay">
+                            <button class="order-btn">Order Now</button>
+                        </div>
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>Iced Coffee</h3>
+                        <p>Cold brew coffee with ice and choice of milk</p>
+                        <span class="menu-price">₹374</span>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="beverages" data-aos="fade-up">
+                    <div class="menu-item-image">
+                        <img src="https://images.unsplash.com/photo-1561047029-3000c68339ca?w=400&h=300&fit=crop" alt="Cold Brew">
+                        <div class="menu-overlay">
+                            <button class="order-btn">Order Now</button>
+                        </div>
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>Cold Brew</h3>
+                        <p>Smooth, aromatic cold brew concentrate with ice</p>
+                        <span class="menu-price">₹415</span>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="beverages" data-aos="fade-up">
+                    <div class="menu-item-image">
+                        <img src="https://images.unsplash.com/photo-1505252585461-04db1eb84625?w=400&h=300&fit=crop" alt="Mango Smoothie">
+                        <div class="menu-overlay">
+                            <button class="order-btn">Order Now</button>
+                        </div>
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>Mango Smoothie</h3>
+                        <p>Fresh mango, yogurt, and honey smoothie</p>
+                        <span class="menu-price">₹498</span>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="beverages" data-aos="fade-up">
+                    <div class="menu-item-image">
+                        <img src="https://images.unsplash.com/photo-1561047029-3000c68339ca?w=400&h=300&fit=crop" alt="Matcha Latte">
+                        <div class="menu-overlay">
+                            <button class="order-btn">Order Now</button>
+                        </div>
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>Matcha Latte</h3>
+                        <p>Whisked matcha green tea with steamed milk</p>
+                        <span class="menu-price">₹540</span>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="beverages" data-aos="fade-up">
+                    <div class="menu-item-image">
+                        <img src="https://images.unsplash.com/photo-1597481499750-3e6b22637e12?w=400&h=300&fit=crop" alt="Hot Chocolate">
+                        <div class="menu-overlay">
+                            <button class="order-btn">Order Now</button>
+                        </div>
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>Hot Chocolate</h3>
+                        <p>Rich, creamy hot chocolate with whipped cream</p>
+                        <span class="menu-price">₹415</span>
+                    </div>
+                </div>
+
+                <!-- Snacks-->
+                <div class="menu-item" data-category="snacks" data-aos="fade-up">
+                    <div class="menu-item-image">
+                        <img src="https://images.unsplash.com/photo-1588137378633-dea1336ce1e2?w=400&h=300&fit=crop" alt="Avocado Toast">
+                        <div class="menu-overlay">
+                            <button class="order-btn">Order Now</button>
+                        </div>
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>Avocado Toast</h3>
+                        <p>Crispy toast with fresh avocado and herbs</p>
+                        <span class="menu-price">₹746</span>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="snacks" data-aos="fade-up">
+                    <div class="menu-item-image">
+                        <img src="https://images.unsplash.com/photo-1452195100486-9cc805987862?w=400&h=300&fit=crop" alt="Artisan Cheese Plate">
+                        <div class="menu-overlay">
+                            <button class="order-btn">Order Now</button>
+                        </div>
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>Artisan Cheese Plate</h3>
+                        <p>Selection of local and imported cheeses with crackers</p>
+                        <span class="menu-price">₹1078</span>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="snacks" data-aos="fade-up">
+                    <div class="menu-item-image">
+                        <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400&h=300&fit=crop" alt="Hummus & Veggie Plate">
+                        <div class="menu-overlay">
+                            <button class="order-btn">Order Now</button>
+                        </div>
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>Hummus & Veggie Plate</h3>
+                        <p>Creamy hummus with fresh seasonal vegetables</p>
+                        <span class="menu-price">₹663</span>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="snacks" data-aos="fade-up">
+                    <div class="menu-item-image">
+                        <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400&h=300&fit=crop" alt="Quinoa Buddha Bowl">
+                        <div class="menu-overlay">
+                            <button class="order-btn">Order Now</button>
+                        </div>
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>Quinoa Buddha Bowl</h3>
+                        <p>Fresh quinoa with roasted vegetables and tahini dressing</p>
+                        <span class="menu-price">₹912</span>
+                    </div>
+                </div>
+
+                <!-- Breakfast-->
+                <div class="menu-item" data-category="breakfast" data-aos="fade-up">
+                    <div class="menu-item-image">
+                        <img src="https://images.unsplash.com/photo-1484723091739-30a097e8f929?w=400&h=300&fit=crop" alt="Pancakes">
+                        <div class="menu-overlay">
+                            <button class="order-btn">Order Now</button>
+                        </div>
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>Fluffy Pancakes</h3>
+                        <p>Stack of fluffy pancakes with syrup and berries</p>
+                        <span class="menu-price">₹829</span>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="breakfast" data-aos="fade-up">
+                    <div class="menu-item-image">
+                        <img src="https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?w=400&h=300&fit=crop" alt="Eggs Benedict">
+                        <div class="menu-overlay">
+                            <button class="order-btn">Order Now</button>
+                        </div>
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>Eggs Benedict</h3>
+                        <p>Poached eggs, hollandaise sauce, English muffin</p>
+                        <span class="menu-price">₹995</span>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="breakfast" data-aos="fade-up">
+                    <div class="menu-item-image">
+                        <img src="https://images.unsplash.com/photo-1495147466023-ac5c588e2e94?w=400&h=300&fit=crop" alt="Granola Bowl">
+                        <div class="menu-overlay">
+                            <button class="order-btn">Order Now</button>
+                        </div>
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>Acai Bowl</h3>
+                        <p>Acai berry bowl with granola, fruit, and honey</p>
+                        <span class="menu-price">₹872</span>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="breakfast" data-aos="fade-up">
+                    <div class="menu-item-image">
+                        <img src="https://images.unsplash.com/photo-1484723091739-30a097e8f929?w=400&h=300&fit=crop" alt="French Toast">
+                        <div class="menu-overlay">
+                            <button class="order-btn">Order Now</button>
+                        </div>
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>Brioche French Toast</h3>
+                        <p>Crispy brioche with maple syrup and whipped cream</p>
+                        <span class="menu-price">₹912</span>
+                    </div>
+                </div>
+
+                <!-- Desserts-->
+                <div class="menu-item" data-category="desserts" data-aos="fade-up">
+                    <div class="menu-item-image">
+                        <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=300&fit=crop" alt="Chocolate Cake">
+                        <div class="menu-overlay">
+                            <button class="order-btn">Order Now</button>
+                        </div>
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>Chocolate Cake</h3>
+                        <p>Decadent dessert with melting chocolate layers</p>
+                        <span class="menu-price">₹580</span>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="desserts" data-aos="fade-up">
+                    <div class="menu-item-image">
+                        <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?w=400&h=300&fit=crop" alt="Cheesecake">
+                        <div class="menu-overlay">
+                            <button class="order-btn">Order Now</button>
+                        </div>
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>New York Cheesecake</h3>
+                        <p>Classic creamy cheesecake with berry topping</p>
+                        <span class="menu-price">₹622</span>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="desserts" data-aos="fade-up">
+                    <div class="menu-item-image">
+                        <img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?w=400&h=300&fit=crop" alt="Tiramisu">
+                        <div class="menu-overlay">
+                            <button class="order-btn">Order Now</button>
+                        </div>
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>Tiramisu</h3>
+                        <p>Italian classic with espresso-soaked layers</p>
+                        <span class="menu-price">₹540</span>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="desserts" data-aos="fade-up">
+                    <div class="menu-item-image">
+                        <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=400&h=300&fit=crop" alt="Croissant">
+                        <div class="menu-overlay">
+                            <button class="order-btn">Order Now</button>
+                        </div>
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>Butter Croissant</h3>
+                        <p>Flaky, buttery pastry perfectly golden brown</p>
+                        <span class="menu-price">₹414</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer-->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>FreshBite Cafe</h4>
+                    <p>Crafting exceptional coffee and memorable experiences since 2020.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Hours</h4>
+                    <p>Mon - Fri: 7:00 AM - 8:00 PM<br>Sat: 8:00 AM - 9:00 PM<br>Sun: 8:00 AM - 7:00 PM</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Address: 123 Coffee Street, City, State<br>Phone: (555) 123-4567<br>Email: hello@freshbite.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 FreshBite Cafe. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms & Conditions</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+

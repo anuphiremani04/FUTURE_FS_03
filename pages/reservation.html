@@ -1,0 +1,202 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Book a table at FreshBite Cafe - Easy online reservation">
+	<title>Reservation - FreshBite Cafe</title>
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../css/pages.css">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="inner-page">
+	<!-- Navigation -->
+	<nav class="navbar">
+		<div class="container nav-container">
+			<div class="logo">
+				<i class="fas fa-leaf"></i>
+				<span>FreshBite Cafe</span>
+			</div>
+			<button class="hamburger" id="hamburger">
+				<span></span>
+				<span></span>
+				<span></span>
+			</button>
+			<ul class="nav-links" id="navLinks">
+				<li><a href="../index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="menu.html">Menu</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
+				<li><a href="reservation.html" class="active">Reservation</a></li>
+				<li><a href="order.html">Order Online</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<!-- Page Header -->
+	<section class="page-header">
+		<div class="page-header-content">
+			<h1>Book a Table</h1>
+			<p>Reserve your table at FreshBite Cafe</p>
+		</div>
+	</section>
+
+	<!-- Reservation Section -->
+	<section class="section-padding">
+		<div class="container">
+			<div class="reservation-wrapper">
+				<div class="reservation-form" data-aos="fade-right">
+					<h2>Make a Reservation</h2>
+					<p>Fill out the form and we will confirm your booking shortly.</p>
+					<form id="reservationForm">
+						<div class="form-row">
+							<div class="form-group">
+								<label for="name">Full Name *</label>
+								<input type="text" id="name" name="name" required>
+							</div>
+							<div class="form-group">
+								<label for="email">Email *</label>
+								<input type="email" id="email" name="email" required>
+							</div>
+						</div>
+
+						<div class="form-row">
+							<div class="form-group">
+								<label for="phone">Phone *</label>
+								<input type="tel" id="phone" name="phone" required>
+							</div>
+							<div class="form-group">
+								<label for="guests">Number of Guests *</label>
+								<select id="guests" name="guests" required>
+									<option value="">Select guests</option>
+									<option value="1">1 Guest</option>
+									<option value="2">2 Guests</option>
+									<option value="3">3 Guests</option>
+									<option value="4">4 Guests</option>
+									<option value="5">5 Guests</option>
+									<option value="6">6 Guests</option>
+									<option value="7+">7+ Guests</option>
+								</select>
+							</div>
+						</div>
+
+						<div class="form-row">
+							<div class="form-group">
+								<label for="date">Date *</label>
+								<input type="date" id="date" name="date" required>
+							</div>
+							<div class="form-group">
+								<label for="time">Time *</label>
+								<select id="time" name="time" required>
+									<option value="">Select time</option>
+									<option>08:00 AM</option>
+									<option>09:00 AM</option>
+									<option>10:00 AM</option>
+									<option>11:00 AM</option>
+									<option>12:00 PM</option>
+									<option>01:00 PM</option>
+									<option>02:00 PM</option>
+									<option>03:00 PM</option>
+									<option>04:00 PM</option>
+									<option>05:00 PM</option>
+									<option>06:00 PM</option>
+									<option>07:00 PM</option>
+									<option>08:00 PM</option>
+								</select>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="occasion">Occasion</label>
+							<select id="occasion" name="occasion">
+								<option value="">Select occasion (optional)</option>
+								<option value="birthday">Birthday</option>
+								<option value="anniversary">Anniversary</option>
+								<option value="meeting">Business Meeting</option>
+								<option value="date">Date Night</option>
+								<option value="other">Other</option>
+							</select>
+						</div>
+
+						<div class="form-group">
+							<label for="requests">Special Requests</label>
+							<textarea id="requests" name="requests" rows="4" placeholder="Dietary needs, seating preference, or anything else..."></textarea>
+						</div>
+
+						<button type="submit" class="btn btn-primary">Confirm Reservation</button>
+					</form>
+					<div class="form-message" id="formMessage" style="display: none;"></div>
+				</div>
+
+				<div class="reservation-info" data-aos="fade-left">
+					<h3>Reservation Guidelines</h3>
+					<ul class="policy-list">
+						<li><i class="fas fa-clock"></i> Please arrive 10 minutes early.</li>
+						<li><i class="fas fa-users"></i> For groups 7+, call us directly.</li>
+						<li><i class="fas fa-phone"></i> Changes/cancellations: notify at least 2 hours in advance.</li>
+						<li><i class="fas fa-info-circle"></i> Weekend slots fill quickly - book early.</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Info Section -->
+	<section class="section-padding bg-light">
+		<div class="container">
+			<div class="section-header">
+				<h2>Need Help With Booking?</h2>
+				<p>Call us for immediate assistance.</p>
+			</div>
+			<div class="cta-buttons">
+				<a href="tel:+15551234567" class="btn btn-primary"><i class="fas fa-phone"></i> Call Us</a>
+				<a href="contact.html" class="btn btn-secondary"><i class="fas fa-envelope"></i> Contact Page</a>
+			</div>
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer class="footer">
+		<div class="container">
+			<div class="footer-content">
+				<div class="footer-section">
+					<h4>FreshBite Cafe</h4>
+					<p>Crafting exceptional coffee and memorable experiences since 2020.</p>
+					<div class="social-links">
+						<a href="#"><i class="fab fa-facebook"></i></a>
+						<a href="#"><i class="fab fa-twitter"></i></a>
+						<a href="#"><i class="fab fa-instagram"></i></a>
+						<a href="#"><i class="fab fa-linkedin"></i></a>
+					</div>
+				</div>
+				<div class="footer-section">
+					<h4>Quick Links</h4>
+					<ul>
+						<li><a href="../index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="menu.html">Menu</a></li>
+						<li><a href="gallery.html">Gallery</a></li>
+					</ul>
+				</div>
+				<div class="footer-section">
+					<h4>Hours</h4>
+					<p>Mon - Fri: 7:00 AM - 8:00 PM<br>Sat: 8:00 AM - 9:00 PM<br>Sun: 8:00 AM - 7:00 PM</p>
+				</div>
+				<div class="footer-section">
+					<h4>Contact</h4>
+					<p>Address: 123 Coffee Street, City, State<br>Phone: (555) 123-4567<br>Email: hello@freshbite.com</p>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<p>&copy; 2024 FreshBite Cafe. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms & Conditions</a></p>
+			</div>
+		</div>
+	</footer>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>
+
+
